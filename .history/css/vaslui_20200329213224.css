@@ -1,0 +1,81 @@
+a.navbar-brand{
+    margin: auto;
+    text-align: center;
+    flex: content;
+    display: flex;
+    align-self: center;
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+.search-box{
+    width: 5rem;
+    height: auto;
+    position: relative;
+}
+.input{
+    position: absolute;
+    top: 20px;
+right: 50%;
+    box-sizing: border-box;
+    width: 0em;
+    height: 2rem;
+    padding: 0 21px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #29313a;
+    border: 3px solid #62d474;
+    transition: all 0.8s ease;
+
+}
+
+::-webkit-input-placeholder{
+    color: #62d474;
+}
+
+::-moz-placeholder{
+    color: #62d474;
+}
+
+:-ms-input-placeholder{
+    color: #62d474;
+}
+
+.btn{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    background: #62d474;
+    border-radius: 50%;
+    right: 45px;
+    top: 10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.8s ease;
+}
+
+.input.active{
+    width: fit-content;
+    right: 100px;
+}
+
+.btn.animate{
+    transform: rotate(-360deg);
+    right: 100px;
+}
+ul.navbar-nav{
+    color: black;
+
+}
+#side_nav ul a.nav-link{
+    font-weight: 300;
+    color: blue;
+}

@@ -1,0 +1,7 @@
+side
+
+
+
+function openNav() {
+    document
+}

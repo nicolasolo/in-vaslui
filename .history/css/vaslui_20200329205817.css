@@ -1,0 +1,18 @@
+a.navbar-brand{
+    margin: auto;
+    text-align: center;
+    flex: content;
+    display: flex;
+    align-self: center;
+}
+
+
+
+ul.navbar-nav{
+    color: black;
+
+}
+#side_nav ul a.nav-link{
+    font-weight: 300;
+    color: blue;
+}

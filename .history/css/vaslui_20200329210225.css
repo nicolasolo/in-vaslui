@@ -1,0 +1,32 @@
+a.navbar-brand{
+    margin: auto;
+    text-align: center;
+    flex: content;
+    display: flex;
+    align-self: center;
+}
+
+.search-box{
+    width: 5rem;
+    height: auto;
+    position: relative;
+}
+.input{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    box-sizing: border-box;
+    width: 0px;
+    height: 63px;
+    padding: 0 20px;
+    
+}
+
+ul.navbar-nav{
+    color: black;
+
+}
+#side_nav ul a.nav-link{
+    font-weight: 300;
+    color: blue;
+}

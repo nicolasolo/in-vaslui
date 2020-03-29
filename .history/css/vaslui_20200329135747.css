@@ -1,0 +1,13 @@
+a.navbar-brand{
+    margin: auto;
+    text-align: center;
+    flex: content;
+    display: flex;
+    align-self: center;
+}
+
+#side_nav{
+    height: 100%;
+    width: 0;
+    
+}

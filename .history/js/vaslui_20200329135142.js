@@ -1,0 +1,7 @@
+con
+
+
+
+function openNav() {
+    document
+}

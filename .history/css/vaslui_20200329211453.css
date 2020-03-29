@@ -1,0 +1,74 @@
+a.navbar-brand{
+    margin: auto;
+    text-align: center;
+    flex: content;
+    display: flex;
+    align-self: center;
+}
+
+.search-box{
+    width: 5rem;
+    height: auto;
+    position: relative;
+}
+.input{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    box-sizing: border-box;
+    width: 0px;
+    height: 2rem;
+    padding: 0 20px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 50%;
+    color: #29313a;
+    border: 3px solid #62d474;
+    transition: all 0.8s ease;
+
+}
+
+::-webkit-input-placeholder{
+    color: #62d474;
+}
+
+::-moz-placeholder{
+    color: #62d474;
+}
+
+:-ms-input-placeholder{
+    color: #62d474;
+}
+
+.btn{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #62d474;
+    border-radius: 50%;
+    right: 45px;
+    top: 10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.8s ease;
+}
+
+.input.active{
+    width: fit-content;
+    right: 100px;
+}
+
+.btn.animate{
+    transform: ;
+}
+ul.navbar-nav{
+    color: black;
+
+}
+#side_nav ul a.nav-link{
+    font-weight: 300;
+    color: blue;
+}
