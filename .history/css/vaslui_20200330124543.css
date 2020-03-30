@@ -1,0 +1,119 @@
+nav{
+  background-color: bisque;
+  position: absolute;
+  height: 2rem;
+  display: flex;
+
+}
+.hamburger-menu {
+  top: 10px;
+  right: 5px;
+  cursor: pointer;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  transition: all 0.25s;
+  z-index: 3;
+}
+
+.bar_1,
+.bar_3 {
+  color: aqua;
+  content: '';
+
+  position: absolute;
+  left: 15px;
+  width: 18px;
+  height: 2.5px;
+  background: grey;
+  transform: rotate(0);
+  transition: all 0.25s;
+}
+
+
+
+.bar_1 {
+  background-color:tomato;
+  transform: rotate(0deg);
+  transition: all 0.5s ease;
+}
+.bar_text {
+  color: black;
+  justify-self: baseline;
+  font-size: 8px;
+  font-weight: 400;
+  background: none;
+  position:absolute;
+  right: 15px;
+  opacity: 1;
+  transition: all 1s ease;
+}
+.bar_3 {
+  background-color: tomato;
+  top: 12px;
+  transform: rotate(0deg);
+  transition: all 0.5s;
+}
+
+
+
+.bar_1::active {
+  transition: all 1s;
+  transform: 
+    rotate(-45deg) translateX(-8px);
+}
+.open .bar_text {
+  opacity: 0;
+  transition: all 0.5s;
+}
+.open .bar_3 {
+  transition: all 1s;
+  transform: 
+    rotate(45deg) translateX(-8px);
+} 
+
+.menu-mobile{
+  
+  position: fixed;
+  background-color:grey;
+  height: 0;
+  width: 0;
+  display: none;
+  transition: all 1s cubic-bezier(0.6, -0.28, 0.735, 0.045) ;
+}
+
+.menu-mobile::acto{
+  top: 0;
+  right: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+.menu-container{
+  z-index: 4;
+  top: 25%;
+  position: relative;
+  justify-content: center;
+}
+
+.menu-container li{
+  font-family: cursive;
+  top: 50px;
+  font-size: 2rem;
+  font-weight: 300;
+  justify-self: center;
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  vertical-align: middle;
+  cursor: pointer;
+
+}
+
+a:hover{
+  cursor: pointer;
+  color: tomato;
+  text-decoration: none;
+}

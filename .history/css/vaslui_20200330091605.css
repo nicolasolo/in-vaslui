@@ -1,0 +1,198 @@
+/* Header fixed and background colors */
+
+.header {
+  position: fixed;
+  top: 0px;
+  max-height: 100px;
+  z-index: 999;
+  width: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 1;
+}
+
+/* UL element Navigation Main Menu */
+
+.navbar-collapse {
+  max-height: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.7, 1, .7, 1)
+}
+
+.header .navbar {
+  margin-bottom: 0;
+  background-color: #003366;
+  border-radius: 0px;
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.7, 1, .7, 1)
+}
+
+.header .navbar-nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none
+}
+
+.header .navbar {
+  margin-bottom: 0;
+  background-color: #1a1a44;
+  border-bottom: 3px #ae952e solid;
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.7, 1, .7, 1);
+  position: relative;
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+
+.navbar-nav { padding-right: 30px; }
+
+/* Menu LI items and children */
+
+.navbar-nav {
+  list-style: none;
+  margin-top: 55px;
+  padding-right: 20px;
+}
+
+li.nav-item {
+  position: relative;
+  font-size: 1em;
+  float: left;
+  height: 50px;
+  padding-left: 30px; /* space between menu items */
+}
+
+a.nav-item-child {
+  font-size: 1em;
+  font-family: 'Oswald', sans-serif !important;
+  color: #fff;
+  line-height: 25px;
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.7, 1, .7, 1)
+}
+
+.navbar-nav>li.nav-item>a:hover {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ae952e;
+  padding-bottom: 3px;
+  color: #ccc;
+}
+
+header .nav-item-child:focus, .header .nav-item-child:hover { background: inherit }
+
+/* MAX-WIDTH 767px */
+@media (max-width:767px) {
+
+.header .menu-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0;
+  margin-right: 0
+}
+
+.header .navbar>.container, .header .navbar>.container>.nav-collapse {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0
+}
+
+.header .navbar>.container { width: auto }
+}
+
+.header .nav-item-hover:after, .link:after, .work .work-overlay:before { content: " " }
+
+.header .navbar-toggle {
+  width: 45px;
+  height: 35px;
+  border: none;
+  margin: 35px 0;
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 31px;
+  margin-right: 35px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.header .navbar-toggle .toggle-icon {
+  position: relative;
+  width: 21px;
+  height: 1px;
+  display: inline-block;
+  background: #fff;
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.7, 1, .7, 1)
+}
+
+.header .navbar-toggle .toggle-icon:after, .header .navbar-toggle .toggle-icon:before {
+  position: absolute;
+  left: 0;
+  background: #fff;
+  content: " "
+}
+
+.header .navbar-toggle .toggle-icon:before {
+  width: 10px;
+  height: 1px;
+  bottom: 10px;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  transform: rotate(0);
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.7, 1, .7, 1)
+}
+
+.header .navbar-toggle .toggle-icon:after {
+  width: 16px;
+  height: 1px;
+  top: -5px;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  transform: rotate(0);
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.7, 1, .7, 1)
+}
+
+.header .navbar-toggle:hover .toggle-icon {
+  background: #ae952e;
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.7, 1, .7, 1)
+}
+
+.header .navbar-toggle:hover .toggle-icon:after, .header .navbar-toggle:hover .toggle-icon:before {
+  width: 21px;
+  height: 1px;
+  background: #ae952e;
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.7, 1, .7, 1)
+}
+
+.header .header .logo-img-main, .header .nav-item.active .nav-item-hover:after, .header .nav-item:hover .nav-item-hover:after {
+  transition-duration: .4s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.7, 1, .7, 1)
+}
+
+.header .navbar-toggle:hover .toggle-icon.is-clicked { background: rgba(81,87,105,0) }
+
+/* MIN-WIDTH 768px */
+@media (min-width: 768px) {
+
+.navbar-toggle { display: none; }
+}

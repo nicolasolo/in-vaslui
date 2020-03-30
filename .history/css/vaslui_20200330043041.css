@@ -1,0 +1,109 @@
+a.navbar-brand{
+    margin: auto;
+    text-align: center;
+    flex: content;
+    display: flex;
+    align-self: center;
+}
+
+.wrapper{
+    position: absolute;
+    top: 25%;
+    right: 1%;
+    transform: translate(-50%, -50%);
+    vertical-align: middle;
+}
+.search-box{
+    width: 5rem;
+    height: auto;
+    position: relative;
+}
+
+.input{
+    position: absolute;
+    top: 90%;
+    right: 60%;
+    box-sizing: border-box;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0 ;
+    outline: none;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    color: #29313a;
+    border: 0.15em solid #62d474;
+    transition: all 1s ease;
+
+}
+
+::-webkit-input-placeholder{
+    color: #62d474;
+}
+
+::-moz-placeholder{
+    color: #62d474;
+}
+
+:-ms-input-placeholder{
+    color: #62d474;
+}
+
+.search{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #62d474;
+    border-radius: 50%;
+    border-color: #62d475;
+    border: 3px;
+    right: 45px;
+    top: 25%;
+    cursor: pointer;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: #fff;
+    transition: all 1s ease;
+}
+
+.input.active{
+    width: fit-content;
+    height: 2rem;
+    top: 60%;
+    right: 50px;
+}
+
+.search.animate{
+    transform: rotate(-360deg);
+    
+}
+
+ul.navbar-nav{
+    color: black;
+
+}
+
+input{
+  position: fixed;
+  opacity: 0;
+}
+
+label{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+label::before{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+}

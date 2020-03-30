@@ -1,0 +1,128 @@
+nav{
+  background-color: bisque;
+  position: absolute;
+  height: 2rem;
+
+}
+.hamburger-menu {
+  top: 10px;
+  right: 10px;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  transition: all 0.25s;
+  z-index: 3;
+  
+  box-shadow: 0,0,3px black;
+}
+.hamburger-menu:active{
+  z-index: 3;
+}
+.bar_1,
+.bar_3 {
+  color: aqua;
+  content: '';
+
+  position: absolute;
+  left: 15px;
+  width: 18px;
+  height: 2.5px;
+  background: grey;
+  transform: rotate(0);
+  transition: all 0.25s;
+}
+
+
+
+.bar_1 {
+  background-color:tomato;
+  transform: rotate(0deg);
+  transition: all 0.5s ease;
+}
+.bar_text {
+  color: black;
+  justify-self: baseline;
+  font-size: 8px;
+  font-weight: 400;
+  background: none;
+  position:absolute;
+  right: 15px;
+  opacity: 1;
+  transition: all 1s ease;
+}
+.bar_3 {
+  background-color: tomato;
+  top: 12px;
+  transform: rotate(0deg);
+  transition: all 0.5s;
+}
+
+
+
+.open .bar_1 {
+  transition: all 1s;
+  transform: 
+    rotate(-45deg) translateX(-8px);
+}
+.open .bar_text {
+  opacity: 0;
+  transition: all 0.5s;
+}
+.open .bar_3 {
+  transition: all 1s;
+  transform: 
+    rotate(45deg) translateX(-8px);
+} 
+
+.sidenav{
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: fixed;
+  background-color:grey;
+	transform: translateX(100%);
+
+	transition: transform .5s ease;
+ 
+}
+
+.active{
+  bottom: 0;
+  right: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  transform: translateX(0%);
+  transition: transform .5s ease;
+}
+
+.sidenav-container{
+  z-index: 4;
+  top: 25%;
+  position: relative;
+  justify-content: center;
+}
+
+.sidenav-container li{
+  font-family: cursive;
+  top: 50px;
+  font-size: 2rem;
+  font-weight: 300;
+  justify-self: center;
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  vertical-align: middle;
+  cursor: pointer;
+opacity: 1;
+}
+
+a:hover{
+  cursor: pointer;
+  color: tomato;
+  text-decoration: none;
+}
