@@ -1,11 +1,14 @@
-body{
-  
-  background-color: lightcoral;
-}
 nav{
+  padding: 0;
+  margin: 0;
   background-color:none;
   position: absolute;
   height: 2rem;
+}
+
+.navbar{
+  padding: 0;
+  margin: 0;
 
 }
 .nav-brand{
@@ -88,8 +91,6 @@ span.brand{
   transition: all 0.25s;
 }
 
-
-
 .bar_1 {
   top: 5px;
   position: absolute;
@@ -111,6 +112,7 @@ span.brand{
   opacity: 1;
   transition: all 1s ease;
 }
+
 .bar_3 {
   position: absolute;
   background-color: tomato;
@@ -118,8 +120,6 @@ span.brand{
   transform: rotate(0deg);
   transition: all 0.5s;
 }
-
-
 
 .open .bar_1 {
   transition: all 1s;
@@ -188,29 +188,46 @@ a:hover{
 
 
 section{
-  
   height: 100%;
+  margin-bottom: 10px;
+  margin: 0em;
+  width: 100%;
 }
+hr{
+  margin: 10px 0;
+  background-color: none;
+
+}
+
 .jumbotron{
-  position: absolute;
-  top: 0;
+
+  top: 0px;
   right: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  margin-bottom: 100px;
+  height: 100vh;
+  margin-bottom: 10px;
   padding: 0;
   border-radius: 0%;
   display: block;
 }
 
-.container-fluid{
-  position: absolute;
-  margin-bottom: 100px;
-}
+
 
 footer{
-  position: absolute;
-  bottom: 0;
+  
+  background-color: whitesmoke;
+  min-height: 100px;
+  width: 100%;
+  position: static;
+  overflow: hidden;
+  bottom: 0%;
   left: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+footer p{
+  vertical-align: bottom;
+  text-justify: newspaper;
 }
