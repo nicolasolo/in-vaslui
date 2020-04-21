@@ -1,0 +1,1194 @@
+{
+    "agroalimentara":
+    [
+    {
+    "name":"Piata Traian",
+    "description": "Piaza Agroalimentara",
+    
+    "adress":
+    {
+    "strada":"Bulevardul Traian",
+    "nr":64
+    },
+
+    "orar":
+    {
+    "lv":"07:00 - 19:00",
+    "s":"07:00 - 16:00",
+    "d":"07:00 - 16:00"
+    },
+    
+    "picture":"https://adevarul.ro/assets/adevarul.ro/MRImage/2011/05/30/50a8850c7c42d5a6636f63e2/646x404.jpg",  
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0035"
+    }
+    
+    },
+    {
+    "name":"Piata Centrala",
+    "description": "35",
+    
+    "adress":
+    {
+    "strada":"Strada Vidin",
+    "nr":""
+    },
+    
+    "orar":
+    {
+    "lv":"07:00 - 18:00",
+    "s":"07:00 - 18:00",
+    "d":"07:00 - 18:00"
+    },
+    
+    "picture":"https://i.ytimg.com/vi/k9lYf-VD72Q/maxresdefault.jpg",
+        
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0035"
+    }
+    }
+    
+    ],
+    "pub":
+    [
+    {
+    "name":"Dublin Irish Pub",
+    "description": "Pub",
+    
+    "adress":
+    {
+    "strada":"Strada Stefan cel Mare",
+    "nr":"69"
+    },
+
+    "orar":
+    {
+    "lv":"08:00 - 01:00",
+    "s":"08:00 - 01:00",
+    "d":"08:00 - 01:00"
+    },
+    
+    "picture":"https://lh5.googleusercontent.com/p/AF1QipOSmPPBrg2DUBvaM3gDitBxIb7cinesgycWqKME=s508-k-no",  
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0235 361 054"
+    }
+    
+    },
+    {
+    "name":"Pub Viking",
+    "description": "Pub",
+    
+    "adress":
+    {
+    "strada":"Strada Petru Rares",
+    "nr":""
+    },
+    
+    "orar":
+    {
+    "lv":"09:00 - 23:00",
+    "s":"09:00 - 23:00",
+    "d":"09:00 - 23:00"
+    },
+    
+    "picture":"https://lh5.googleusercontent.com/p/AF1QipMeWrmXvce3kb6MaTfgNr7tTmtbug3HKFI3eovw=w203-h114-k-no",
+        
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0035"
+    }
+    },
+    {
+        "name":"Route 66",
+        "description": "Pub",
+        
+        "adress":
+        {
+        "strada":"Strada Stefan ce mare",
+        "nr":"153"
+        },
+        
+        "orar":
+        {
+        "lv":"08:00 - 00:00",
+        "s":"08:00 - 00:00",
+        "d":"08:00 - 00:00"
+        },
+        
+        "picture":"https://scontent-otp1-1.xx.fbcdn.net/v/t31.0-8/22829773_365326410585823_4119336865846582691_o.jpg?_nc_cat=104&_nc_oc=AQkfi2WefuXEux0KKv9Ws06Nke8HOa9eaPA5rS1JbCxGmkX81tqdUGGZjV_i5jwcYNCajxZiB8AHXwvI0Z8S-Y4y&_nc_ht=scontent-otp1-1.xx&oh=4b69ce9464d26a637efb265cab8f9b2d&oe=5D87B68E",
+            
+        "phone":
+        {
+        "tel1":"",
+        "tel2": "0799 524 737"
+        }
+        },
+        {
+            "name":"Pub Spartacus",
+            "description": "Pub",
+            
+            "adress":
+            {
+            "strada":"Strada Stefan ce mare",
+            "nr":"Bloc 414"
+            },
+            
+            "orar":
+            {
+            "lv":"06:00 - 22:00",
+            "s":"06:00 - 22:00",
+            "d":"06:00 - 22:00"
+            },
+            
+            "picture":"http://www.vaslui.heyromania.ro/_pics/VS/products/large/51/51_1_20141124132631.jpg",
+                
+            "phone":
+            {
+            "tel1":"",
+            "tel2": "0741 470 167"
+            }
+            }
+            
+    
+    ],
+    "supermarket":
+    [
+    {
+    "name":"LIDL",
+    "description": "supermarket",
+    
+    "adress":
+    {
+    "strada":"Strada Decebal",
+    "nr":"2A"
+    },
+
+    "orar":
+    {
+    "lv":"07:30 - 21:00",
+    "s":"07:30 - 21:00",
+    "d":"07:30 - 19:00"
+    },
+    
+    "picture":"./assets/img/646x404.jpg",  
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0800 89 66 22"
+    }
+    
+    },
+    {
+        "name":"Aurocor",
+        "description": "supermarket",
+        
+        "adress":
+        {
+        "strada":"Bulevardul Republicii",
+        "nr":"331"
+        },
+    
+        "orar":
+        {
+        "lv":"07:00 - 22:00",
+        "s":"07:00 - 22:00",
+        "d":"09:00 - 21:00"
+        },
+        
+        "picture":"./assets/img/646x404.jpg",  
+        "phone":
+        {
+        "tel1":"",
+        "tel2": "0235 31 58 08"
+        }
+        
+        },
+        {
+            "name":"Taviany",
+            "description": "supermarket",
+            
+            "adress":
+            {
+            "strada":"Strada Grarii",
+            "nr":"2"
+            },
+        
+            "orar":
+            {
+            "lv":"06:00 - 22:00",
+            "s":"06:00 - 22:00",
+            "d":"06:00 - 22:00"
+            },
+            
+            "picture":"./assets/img/646x404.jpg",  
+            "phone":
+            {
+            "tel1":"",
+            "tel2": "0235"
+            }
+            
+            },
+            {
+                "name":"Carrefour Market",
+                "description": "supermarket",
+                
+                "adress":
+                {
+                "strada":"Strada Stefan cel Mare",
+                "nr":"82"
+                },
+            
+                "orar":
+                {
+                "lv":"07:00 - 22:00",
+                "s":"07:00 - 22:00",
+                "d":"07:00 - 22:00"
+                },
+                
+                "picture":"./assets/img/646x404.jpg",  
+                "phone":
+                {
+                "tel1":"",
+                "tel2": "0374 28 48 72"
+                }
+                
+                },
+                {
+                    "name":"Carrefour Market",
+                    "description": "supermarket",
+                    
+                    "adress":
+                    {
+                    "strada":"Bulevardul Traian",
+                    "nr":"64"
+                    },
+                
+                    "orar":
+                    {
+                    "lv":"07:00 - 22:00",
+                    "s":"07:00 - 22:00",
+                    "d":"07:00 - 22:00"
+                    },
+                    
+                    "picture":"./assets/img/646x404.jpg",  
+                    "phone":
+                    {
+                    "tel1":"",
+                    "tel2": "0374 75 09 86"
+                    }
+                    
+                    },
+                    {
+                        "name":"Kaufland",
+                        "description": "supermarket",
+                        
+                        "adress":
+                        {
+                        "strada":"Strada Decwbal",
+                        "nr":"44"
+                        },
+                    
+                        "orar":
+                        {
+                        "lv":"08:00 - 21:00",
+                        "s":"08:00 - 21:00",
+                        "d":"08:00 - 21:00"
+                        },
+                        
+                        "picture":"./assets/img/646x404.jpg",  
+                        "phone":
+                        {
+                        "tel1":"",
+                        "tel2": "0800 08 08 88"
+                        }
+                        
+                        },
+                        {
+                            "name":"Taviany",
+                            "description": "supermarket",
+                            
+                            "adress":
+                            {
+                            "strada":"Strada Calugareni",
+                            "nr":"103A"
+                            },
+                        
+                            "orar":
+                            {
+                            "lv":"08:00 - 17:00",
+                            "s":"08:00 - 13:00",
+                            "d":"inchis"
+                            },
+                            
+                            "picture":"./assets/img/646x404.jpg",  
+                            "phone":
+                            {
+                            "tel1":"",
+                            "tel2": "0235 31 34 94"
+                            }
+                            
+                            },
+                            {
+                                "name":"Penny Market",
+                                "description": "supermarket",
+                                
+                                "adress":
+                                {
+                                "strada":"Strada Calugareni",
+                                "nr":"200"
+                                },
+                            
+                                "orar":
+                                {
+                                "lv":"07:30 - 21:00",
+                                "s":"07:30 - 21:00",
+                                "d":"08:00 - 19:00"
+                                },
+                                
+                                "picture":"./assets/img/646x404.jpg",  
+                                "phone":
+                                {
+                                "tel1":"",
+                                "tel2": "0800 11 01 11"
+                                }
+                                
+                                },
+                                {
+                                    "name":"LaDoiPasi Mai Bun Market",
+                                    "description": "supermarket",
+                                    
+                                    "adress":
+                                    {
+                                    "strada":"Strada Mihail Kogalniceanu",
+                                    "nr":"1"
+                                    },
+                                
+                                    "orar":
+                                    {
+                                    "lv":"06:00 - 22:00",
+                                    "s":"06:00 - 22:00",
+                                    "d":"06:00 - 22:00"
+                                    },
+                                    
+                                    "picture":"./assets/img/646x404.jpg",  
+                                    "phone":
+                                    {
+                                    "tel1":"",
+                                    "tel2": ""
+                                    }
+                                    
+                                    }
+
+    ],
+    
+    "restaurante":
+    [
+    {
+    "name":"Restaurant Vascar HD",
+    "description": "restaurant",
+    
+    "adress":
+    {
+    "strada":"Strada Podul Inalt",
+    "nr":11
+    },
+
+    "orar":
+    {
+    "lv":"09:00 - 16:00",
+    "s":"inchis",
+    "d":"inchis"
+    },
+    
+    "picture":"./assets/img/646x404.jpg",  
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0335 41 33 44"
+    }
+    
+    },
+
+    {
+        "name":"Restaurant Mayor",
+        "description": "restaurant",
+        
+        "adress":
+        {
+        "strada":"Strada Stefan cel Mare ",
+        "nr":"236 A"
+        },
+    
+        "orar":
+        {
+        "lv":"09:00 - 23:45",
+        "s":"09:00 - 23:45",
+        "d":"09:00 - 23:45"
+        },
+        
+        "picture":"./assets/img/646x404.jpg",  
+        "phone":
+        {
+        "tel1":"",
+        "tel2": "0746 06 22 77"
+        }
+        
+        },
+        {
+        "name":"Restaurant Stil",
+        "description": "restaurant",
+        
+        "adress":
+        {
+        "strada":"Strada Andrei Muresanu ",
+        "nr":"24-26"
+        },
+    
+        "orar":
+        {
+        "lv":"09:00 - 24:00",
+        "s":"09:00 - 24:00",
+        "d":"09:00 - 24.00"
+        },
+        
+        "picture":"./assets/img/646x404.jpg",  
+        "phone":
+        {
+        "tel1":"",
+        "tel2": "0748 43 16 19"
+        }
+        
+        },
+
+        {
+            "name":"Restaurant Select",
+            "description": "restaurant",
+            
+            "adress":
+            {
+            "strada":"Strada Cpt. Filoti Claudiu ",
+            "nr":""
+            },
+        
+            "orar":
+            {
+            "lv":"14:00 - 24:00",
+            "s":"inchis",
+            "d":"14:00 - 24:00"
+            },
+            
+            "picture":"./assets/img/646x404.jpg",  
+            "phone":
+            {
+            "tel1":"",
+            "tel2": "0745 20 05 15"
+            }
+            
+            },
+            {
+                "name":"Restaurant Pheonix",
+                "description": "restaurant",
+                
+                "adress":
+                {
+                "strada":"Strada  ",
+                "nr":""
+                },
+            
+                "orar":
+                {
+                "lv":"08:00 - 22:00",
+                "s":"08:00 - 22:00",
+                "d":"08:00 - 22:00"
+                },
+                
+                "picture":"./assets/img/646x404.jpg",  
+                "phone":
+                {
+                "tel1":"",
+                "tel2": "0335 41 20 25"
+                }
+                
+                },
+                {
+                    "name":"Restaurant Minion",
+                    "description": "restaurant",
+                    
+                    "adress":
+                    {
+                    "strada":"Strada Alecu Donici ",
+                    "nr":"10"
+                    },
+                
+                    "orar":
+                    {
+                    "lv":"11:00 - 22:00",
+                    "s":"11:00 - 22:00",
+                    "d":"11:00 - 22:00"
+                    },
+                    
+                    "picture":"./assets/img/646x404.jpg",  
+                    "phone":
+                    {
+                    "tel1":"",
+                    "tel2": "0727 82 30 16"
+                    }
+                    
+                    },
+
+                    {
+                        "name":"Restaurant Roma",
+                        "description": "restaurant",
+                        
+                        "adress":
+                        {
+                        "strada":"Strada Calugareni ",
+                        "nr":"147"
+                        },
+                    
+                        "orar":
+                        {
+                        "lv":"",
+                        "s":"",
+                        "d":""
+                        },
+                        
+                        "picture":"./assets/img/646x404.jpg",  
+                        "phone":
+                        {
+                        "tel1":"",
+                        "tel2": ""
+                        }
+                        
+                        },
+
+                        {
+                            "name":"Vecchia Roma",
+                            "description": "restaurant",
+                            
+                            "adress":
+                            {
+                            "strada":"Strada Anton Pann",
+                            "nr":""
+                            },
+                        
+                            "orar":
+                            {
+                            "lv":"09:00 - 24:00",
+                            "s":"09:00 - 24:00",
+                            "d":"09:00 - 24:00"
+                            },
+                            
+                            "picture":"./assets/img/646x404.jpg",  
+                            "phone":
+                            {
+                            "tel1":"",
+                            "tel2": "0335 41 74 17"
+                            }
+                            
+                            },
+        
+        {
+            "name":"Restaurant Copou",
+            "description": "restaurant",
+            
+            "adress":
+            {
+            "strada":"Strada Veteran Turcanu",
+            "nr":"Parc Copou"
+            },
+        
+            "orar":
+            {
+            "lv":"09:00 - 00:00",
+            "s":"09:00 - 00:00",
+            "d":"09:00 - 00:00"
+            },
+            
+            "picture":"./assets/img/646x404.jpg",  
+            "phone":
+            {
+            "tel1":"",
+            "tel2": "0744 22 68 42"
+            }
+            
+            },
+            {
+                "name":"Restaurant Ambasador",
+                "description": "restaurant",
+                
+                "adress":
+                {
+                "strada":"Strada Filote Claudiu",
+                "nr":"7"
+                },
+            
+                "orar":
+                {
+                "lv":"07:00 - 22:00",
+                "s":"07:00 - 22:00",
+                "d":"07:00 - 14:00"
+                },
+                
+                "picture":"./assets/img/646x404.jpg",  
+                "phone":
+                {
+                "tel1":"",
+                "tel2": "0745 20 05 15"
+                }
+                
+                },
+                {
+                    "name":"Green Garden",
+                    "description": "restaurant",
+                    
+                    "adress":
+                    {
+                    "strada":"Strada Metalurgiei ",
+                    "nr":"1"
+                    },
+                
+                    "orar":
+                    {
+                    "lv":"",
+                    "s":"",
+                    "d":""
+                    },
+                    
+                    "picture":"./assets/img/646x404.jpg",  
+                    "phone":
+                    {
+                    "tel1":"",
+                    "tel2": ""
+                    }
+                    
+                    },
+                {
+                    "name":"La Livada",
+                    "description": "restaurant",
+                    
+                    "adress":
+                    {
+                    "strada":"DN24",
+                    "nr":743
+                    },
+                
+                    "orar":
+                    {
+                    "lv":"--",
+                    "s":"--",
+                    "d":"--"
+                    },
+                    
+                    "picture":"./assets/img/646x404.jpg",  
+                    "phone":
+                    {
+                    "tel1":"",
+                    "tel2": "0335 80 07 00"
+                    }
+                    
+                    },
+                    {
+                        "name":"Restaurant Excelent",
+                        "description": "restaurant",
+                        
+                        "adress":
+                        {
+                        "strada":"Strada Calugareni",
+                        "nr":"164"
+                        },
+                    
+                        "orar":
+                        {
+                        "lv":"09:00 - 18:00",
+                        "s":"09:00 - 18:00",
+                        "d":"inchis"
+                        },
+                        
+                        "picture":"./assets/img/646x404.jpg",  
+                        "phone":
+                        {
+                        "tel1":"",
+                        "tel2": "0743 41 96 73"
+                        }
+                        
+                        },
+                    {
+                        "name":"Amadeus",
+                        "description": "restaurant",
+                        
+                        "adress":
+                        {
+                        "strada":"Strada Gheorghe Dolja",
+                        "nr":1
+                        },
+                    
+                        "orar":
+                        {
+                        "lv":"07:00 - 19:00",
+                        "s":"07:00 - 16:00",
+                        "d":"07:00 - 16:00"
+                        },
+                        
+                        "picture":"./assets/img/646x404.jpg",  
+                        "phone":
+                        {
+                        "tel1":"",
+                        "tel2": "0035"
+                        }
+                        
+                        }
+
+    ],
+    "alimentara":
+    [
+    {
+    "name":"Vascar",
+    "description": "alimentara",
+    
+    "adress":
+    {
+    "strada":"Bulevardul Traian",
+    "nr":""
+    },
+
+    "orar":
+    {
+    "lv":"07:00 - 21:00",
+    "s":"07:00 - 21:00",
+    "d":"07:00 - 21:00"
+    },
+    
+    "picture":"./assets/img/646x404.jpg",  
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0035"
+    }
+    },
+    {
+    "name":"Sc Dalsor Company",
+    "description": "alimentara",
+    
+    "adress":
+    {
+    "strada":"Strada Avram Iancu",
+    "nr":"332"
+    },
+
+    "orar":
+    {
+    "lv":"07:00 - 19:00",
+    "s":"07:00 - 16:00",
+    "d":"07:00 - 16:00"
+    },
+    
+    "picture":"./assets/img/646x404.jpg",  
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0035"
+    }
+}
+
+    ],
+    "imbracaminte":
+    [
+    {
+    "name":"Nan by Danina Line",
+    "description": "imbracaminte",
+    
+    "adress":
+    {
+    "strada":"Strada Podul Inalt",
+    "nr":"4"
+    },
+
+    "orar":
+    {
+    "lv":"09:00 - 18:00",
+    "s":"inchis",
+    "d":"inchis"
+    },
+    
+    "picture":"./assets/img/646x404.jpg",  
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0235 31 84 08"
+    }
+    
+    },
+    {
+        "name":"Zimmer Discount",
+        "description": "imbracaminte",
+        
+        "adress":
+        {
+        "strada":"Strada Decebal",
+        "nr":"373"
+        },
+    
+        "orar":
+        {
+        "lv":"07:00 - 19:00",
+        "s":"07:00 - 16:00",
+        "d":"07:00 - 16:00"
+        },
+        
+        "picture":"./assets/img/646x404.jpg",  
+        "phone":
+        {
+        "tel1":"",
+        "tel2": "0035"
+        }
+        
+        },
+        {
+            "name":"Betty's Avantaz",
+            "description": "imbracaminte",
+            
+            "adress":
+            {
+            "strada":"Strada Podurilor",
+            "nr":""
+            },
+        
+            "orar":
+            {
+            "lv":"09:00 - 18:00",
+            "s":"09:00 - 14:00",
+            "d":"09:00 - 14:00"
+            },
+            
+            "picture":"./assets/img/646x404.jpg",  
+            "phone":
+            {
+            "tel1":"",
+            "tel2": "0035"
+            }
+            
+            },
+            {
+                "name":"Nan by Danina Line",
+                "description": "imbracaminte",
+                
+                "adress":
+                {
+                "strada":"Bulevardul Traian",
+                "nr":"100"
+                },
+            
+                "orar":
+                {
+                "lv":"09:00 - 19:00",
+                "s":"09:00 - 14:00",
+                "d":"inchis"
+                },
+                
+                "picture":"./assets/img/646x404.jpg",  
+                "phone":
+                {
+                "tel1":"",
+                "tel2": "0751 30 20 71"
+                }
+                
+                },
+                {
+                    "name":"TAKKO",
+                    "description": "imbracaminte",
+                    
+                    "adress":
+                    {
+                    "strada":"Strada Decebal",
+                    "nr":"Kaufland"
+                    },
+                
+                    "orar":
+                    {
+                    "lv":"09:00 - 21:00",
+                    "s":"09:00 - 21:00",
+                    "d":"09:00 - 18:00"
+                    },
+                    
+                    "picture":"./assets/img/646x404.jpg",  
+                    "phone":
+                    {
+                    "tel1":"",
+                    "tel2": "0372 77 32 79"
+                    }
+                    
+                    },
+                    {
+                        "name":"Pepco",
+                        "description": "imbracaminte",
+                        
+                        "adress":
+                        {
+                        "strada":"Strada Decebal",
+                        "nr":"Kaufland"
+                        },
+                    
+                        "orar":
+                        {
+                        "lv":"09:00 - 21:00",
+                        "s":"09:00 - 21:00",
+                        "d":"09:00 - 18:00"
+                        },
+                        
+                        "picture":"./assets/img/646x404.jpg",  
+                        "phone":
+                        {
+                        "tel1":"",
+                        "tel2": "0035"
+                        }
+                        
+                        },
+                            {
+    "name":"Maicom",
+    "description": "imbracaminte",
+    
+    "adress":
+    {
+    "strada":"Bulevardul Traian",
+    "nr":""
+    },
+
+    "orar":
+    {
+    "lv":"09:00 - 19:00",
+    "s":"09:00 - 16:00",
+    "d":"09:00 - 16:00"
+    },
+    
+    "picture":"./assets/img/646x404.jpg",  
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0745 48 40 18"
+    }
+    
+    },
+    {
+    "name":"Pifou",
+    "description": "imbracaminte",
+    
+    "adress":
+    {
+    "strada":"Strada Stefan cel Mare",
+    "nr":"270 bis"
+    },
+
+    "orar":
+    {
+    "lv":"08:00 - 16:00",
+    "s":"inchis",
+    "d":"inchis"
+    },
+    
+    "picture":"./assets/img/646x404.jpg",  
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0335 51 92 43"
+    }
+    
+    },
+    {
+    "name":"Mexton",
+    "description": "imbracaminte",
+    
+    "adress":
+    {
+    "strada":"Strada Stefan cel Mare",
+    "nr":"275 A"
+    },
+
+    "orar":
+    {
+    "lv":"10:00 - 22:00",
+    "s":"10:00 - 22:00",
+    "d":"10:00 - 22:00"
+    },
+    
+    "picture":"./assets/img/646x404.jpg",  
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0746 82 71 84"
+    }
+    
+    },
+        {
+    "name":"TXM",
+    "description": "imbracaminte",
+    
+    "adress":
+    {
+    "strada":"Strada Decebal",
+    "nr":"KAufland"
+    },
+
+    "orar":
+    {
+    "lv":"09:00 - 21:00",
+    "s":"09:00 - 21:00",
+    "d":"09:00 - 18:00"
+    },
+    
+    "picture":"./assets/img/646x404.jpg",  
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0035"
+    }
+    
+    },
+        {
+    "name":"Galleriile Select",
+    "description": "imbracaminte",
+    
+    "adress":
+    {
+    "strada":"Strada Stefan cel Mare",
+    "nr":""
+    },
+
+    "orar":
+    {
+    "lv":"09:00 - 19:00",
+    "s":"09:00 - 16:00",
+    "d":"09:00 - 16:00"
+    },
+    
+    "picture":"./assets/img/646x404.jpg",  
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0035"
+    }
+    
+    },
+        {
+    "name":"Diana Shopping",
+    "description": "imbracaminte",
+    
+    "adress":
+    {
+    "strada":"Strada Stefan cel Mare",
+    "nr":"87"
+    },
+
+    "orar":
+    {
+    "lv":"09:00 - 19:00",
+    "s":"09:00 - 15:00",
+    "d":"09:00 - 13:00"
+    },
+    
+    "picture":"./assets/img/646x404.jpg",  
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0035"
+    }
+    
+    },
+        {
+    "name":"",
+    "description": "imbracaminte",
+    
+    "adress":
+    {
+    "strada":"",
+    "nr":64
+    },
+
+    "orar":
+    {
+    "lv":"07:00 - 19:00",
+    "s":"07:00 - 16:00",
+    "d":"07:00 - 16:00"
+    },
+    
+    "picture":"./assets/img/646x404.jpg",  
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0035"
+    }
+    
+    }
+
+    ],
+
+    "restaurant":
+    [
+    {
+    "name":"",
+    "description": "categorie",
+    
+    "adress":
+    {
+    "strada":"",
+    "nr":64
+    },
+
+    "orar":
+    {
+    "lv":"07:00 - 19:00",
+    "s":"07:00 - 16:00",
+    "d":"07:00 - 16:00"
+    },
+    
+    "picture":"./assets/img/646x404.jpg",  
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0035"
+    }
+    
+    }
+
+    ],
+        "categorie":
+    [
+    {
+    "name":"",
+    "description": "categorie",
+    
+    "adress":
+    {
+    "strada":"",
+    "nr":64
+    },
+
+    "orar":
+    {
+    "lv":"07:00 - 19:00",
+    "s":"07:00 - 16:00",
+    "d":"07:00 - 16:00"
+    },
+    
+    "picture":"./assets/img/646x404.jpg",  
+    "phone":
+    {
+    "tel1":"",
+    "tel2": "0035"
+    }
+    
+    }
+
+    ]
+
+
+
+    }
+    
